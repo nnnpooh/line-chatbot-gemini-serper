@@ -1,0 +1,14 @@
+[project]
+name = "line-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.0",
+    "google-generativeai>=0.8.3",
+    "line-bot-sdk>=3.14.2",
+    "pyngrok>=7.2.1",
+    "python-dotenv>=1.0.1",
+    "ruff>=0.8.2",
+]
